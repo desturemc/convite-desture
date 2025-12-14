@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@font-face {
+  font-family: 'Quadrat';
+  src: url('/assets/quadrat.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bebas';
+  src: url('/assets/bebas.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mine';
+  src: url('/assets/mine.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Coolve';
+  src: url('/assets/coolve.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lemon';
+  src: url('/assets/lemon.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Landers';
+  src: url('/assets/landers.ttf') format('truetype');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#0a0a0a] text-white;
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
